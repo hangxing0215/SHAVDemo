@@ -1,0 +1,637 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E77F90912078EF730095C6FF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E77F90902078EF730095C6FF /* AppDelegate.m */; };
+		E77F90992078EF740095C6FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E77F90982078EF740095C6FF /* Assets.xcassets */; };
+		E77F909C2078EF740095C6FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E77F909A2078EF740095C6FF /* LaunchScreen.storyboard */; };
+		E77F909F2078EF740095C6FF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E77F909E2078EF740095C6FF /* main.m */; };
+		E77F90A92078EF740095C6FF /* SHAVDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E77F90A82078EF740095C6FF /* SHAVDemoTests.m */; };
+		E77F90B42078EF740095C6FF /* SHAVDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E77F90B32078EF740095C6FF /* SHAVDemoUITests.m */; };
+		E77F90C32078EFA20095C6FF /* SHMainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E77F90C22078EFA20095C6FF /* SHMainTableViewController.m */; };
+		E77F90CA2078F2870095C6FF /* SHRecordAudioVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E77F90C82078F2870095C6FF /* SHRecordAudioVC.m */; };
+		E77F90CB2078F2870095C6FF /* SHRecordAudioVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = E77F90C92078F2870095C6FF /* SHRecordAudioVC.xib */; };
+		E77F90D12078FE770095C6FF /* 3.wav in Resources */ = {isa = PBXBuildFile; fileRef = E77F90CF2078FE770095C6FF /* 3.wav */; };
+		E77F90D22078FE770095C6FF /* 4.wav in Resources */ = {isa = PBXBuildFile; fileRef = E77F90D02078FE770095C6FF /* 4.wav */; };
+		E77F90D62078FEDB0095C6FF /* SHShortAudioVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E77F90D42078FEDB0095C6FF /* SHShortAudioVC.m */; };
+		E77F90D72078FEDB0095C6FF /* SHShortAudioVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = E77F90D52078FEDB0095C6FF /* SHShortAudioVC.xib */; };
+		E77F90DB207901FE0095C6FF /* SHPlayLocalMusicVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E77F90D9207901FE0095C6FF /* SHPlayLocalMusicVC.m */; };
+		E77F90DC207901FE0095C6FF /* SHPlayLocalMusicVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = E77F90DA207901FE0095C6FF /* SHPlayLocalMusicVC.xib */; };
+		E77F90DE207902CC0095C6FF /* music_a.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E77F90DD207902CC0095C6FF /* music_a.mp3 */; };
+		E77F90E120790AC30095C6FF /* SHAVPlayerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E77F90E020790AC30095C6FF /* SHAVPlayerVC.m */; };
+		E77F90E62079192B0095C6FF /* testVideo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E77F90E52079192A0095C6FF /* testVideo.mp4 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E77F90A52078EF740095C6FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E77F90842078EF730095C6FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E77F908B2078EF730095C6FF;
+			remoteInfo = SHAVDemo;
+		};
+		E77F90B02078EF740095C6FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E77F90842078EF730095C6FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E77F908B2078EF730095C6FF;
+			remoteInfo = SHAVDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E77F908C2078EF730095C6FF /* SHAVDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SHAVDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E77F908F2078EF730095C6FF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E77F90902078EF730095C6FF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E77F90982078EF740095C6FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E77F909B2078EF740095C6FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E77F909D2078EF740095C6FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E77F909E2078EF740095C6FF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E77F90A42078EF740095C6FF /* SHAVDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SHAVDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E77F90A82078EF740095C6FF /* SHAVDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHAVDemoTests.m; sourceTree = "<group>"; };
+		E77F90AA2078EF740095C6FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E77F90AF2078EF740095C6FF /* SHAVDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SHAVDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E77F90B32078EF740095C6FF /* SHAVDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHAVDemoUITests.m; sourceTree = "<group>"; };
+		E77F90B52078EF740095C6FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E77F90C12078EFA20095C6FF /* SHMainTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SHMainTableViewController.h; sourceTree = "<group>"; };
+		E77F90C22078EFA20095C6FF /* SHMainTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHMainTableViewController.m; sourceTree = "<group>"; };
+		E77F90C72078F2870095C6FF /* SHRecordAudioVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SHRecordAudioVC.h; sourceTree = "<group>"; };
+		E77F90C82078F2870095C6FF /* SHRecordAudioVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHRecordAudioVC.m; sourceTree = "<group>"; };
+		E77F90C92078F2870095C6FF /* SHRecordAudioVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SHRecordAudioVC.xib; sourceTree = "<group>"; };
+		E77F90CF2078FE770095C6FF /* 3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 3.wav; sourceTree = "<group>"; };
+		E77F90D02078FE770095C6FF /* 4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 4.wav; sourceTree = "<group>"; };
+		E77F90D32078FEDB0095C6FF /* SHShortAudioVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SHShortAudioVC.h; sourceTree = "<group>"; };
+		E77F90D42078FEDB0095C6FF /* SHShortAudioVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHShortAudioVC.m; sourceTree = "<group>"; };
+		E77F90D52078FEDB0095C6FF /* SHShortAudioVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SHShortAudioVC.xib; sourceTree = "<group>"; };
+		E77F90D8207901FE0095C6FF /* SHPlayLocalMusicVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SHPlayLocalMusicVC.h; sourceTree = "<group>"; };
+		E77F90D9207901FE0095C6FF /* SHPlayLocalMusicVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHPlayLocalMusicVC.m; sourceTree = "<group>"; };
+		E77F90DA207901FE0095C6FF /* SHPlayLocalMusicVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SHPlayLocalMusicVC.xib; sourceTree = "<group>"; };
+		E77F90DD207902CC0095C6FF /* music_a.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music_a.mp3; sourceTree = "<group>"; };
+		E77F90DF20790AC30095C6FF /* SHAVPlayerVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SHAVPlayerVC.h; sourceTree = "<group>"; };
+		E77F90E020790AC30095C6FF /* SHAVPlayerVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHAVPlayerVC.m; sourceTree = "<group>"; };
+		E77F90E52079192A0095C6FF /* testVideo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = testVideo.mp4; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E77F90892078EF730095C6FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E77F90A12078EF740095C6FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E77F90AC2078EF740095C6FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E77F90832078EF730095C6FF = {
+			isa = PBXGroup;
+			children = (
+				E77F908E2078EF730095C6FF /* SHAVDemo */,
+				E77F90A72078EF740095C6FF /* SHAVDemoTests */,
+				E77F90B22078EF740095C6FF /* SHAVDemoUITests */,
+				E77F908D2078EF730095C6FF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E77F908D2078EF730095C6FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E77F908C2078EF730095C6FF /* SHAVDemo.app */,
+				E77F90A42078EF740095C6FF /* SHAVDemoTests.xctest */,
+				E77F90AF2078EF740095C6FF /* SHAVDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E77F908E2078EF730095C6FF /* SHAVDemo */ = {
+			isa = PBXGroup;
+			children = (
+				E77F90CE2078FE400095C6FF /* Resource */,
+				E77F908F2078EF730095C6FF /* AppDelegate.h */,
+				E77F90902078EF730095C6FF /* AppDelegate.m */,
+				E77F90C12078EFA20095C6FF /* SHMainTableViewController.h */,
+				E77F90C22078EFA20095C6FF /* SHMainTableViewController.m */,
+				E77F90C72078F2870095C6FF /* SHRecordAudioVC.h */,
+				E77F90C82078F2870095C6FF /* SHRecordAudioVC.m */,
+				E77F90C92078F2870095C6FF /* SHRecordAudioVC.xib */,
+				E77F90D32078FEDB0095C6FF /* SHShortAudioVC.h */,
+				E77F90D42078FEDB0095C6FF /* SHShortAudioVC.m */,
+				E77F90D52078FEDB0095C6FF /* SHShortAudioVC.xib */,
+				E77F90D8207901FE0095C6FF /* SHPlayLocalMusicVC.h */,
+				E77F90D9207901FE0095C6FF /* SHPlayLocalMusicVC.m */,
+				E77F90DA207901FE0095C6FF /* SHPlayLocalMusicVC.xib */,
+				E77F90DF20790AC30095C6FF /* SHAVPlayerVC.h */,
+				E77F90E020790AC30095C6FF /* SHAVPlayerVC.m */,
+				E77F90982078EF740095C6FF /* Assets.xcassets */,
+				E77F909A2078EF740095C6FF /* LaunchScreen.storyboard */,
+				E77F909D2078EF740095C6FF /* Info.plist */,
+				E77F909E2078EF740095C6FF /* main.m */,
+			);
+			path = SHAVDemo;
+			sourceTree = "<group>";
+		};
+		E77F90A72078EF740095C6FF /* SHAVDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				E77F90A82078EF740095C6FF /* SHAVDemoTests.m */,
+				E77F90AA2078EF740095C6FF /* Info.plist */,
+			);
+			path = SHAVDemoTests;
+			sourceTree = "<group>";
+		};
+		E77F90B22078EF740095C6FF /* SHAVDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E77F90B32078EF740095C6FF /* SHAVDemoUITests.m */,
+				E77F90B52078EF740095C6FF /* Info.plist */,
+			);
+			path = SHAVDemoUITests;
+			sourceTree = "<group>";
+		};
+		E77F90CE2078FE400095C6FF /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				E77F90E52079192A0095C6FF /* testVideo.mp4 */,
+				E77F90DD207902CC0095C6FF /* music_a.mp3 */,
+				E77F90CF2078FE770095C6FF /* 3.wav */,
+				E77F90D02078FE770095C6FF /* 4.wav */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E77F908B2078EF730095C6FF /* SHAVDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E77F90B82078EF740095C6FF /* Build configuration list for PBXNativeTarget "SHAVDemo" */;
+			buildPhases = (
+				E77F90882078EF730095C6FF /* Sources */,
+				E77F90892078EF730095C6FF /* Frameworks */,
+				E77F908A2078EF730095C6FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SHAVDemo;
+			productName = SHAVDemo;
+			productReference = E77F908C2078EF730095C6FF /* SHAVDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E77F90A32078EF740095C6FF /* SHAVDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E77F90BB2078EF740095C6FF /* Build configuration list for PBXNativeTarget "SHAVDemoTests" */;
+			buildPhases = (
+				E77F90A02078EF740095C6FF /* Sources */,
+				E77F90A12078EF740095C6FF /* Frameworks */,
+				E77F90A22078EF740095C6FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E77F90A62078EF740095C6FF /* PBXTargetDependency */,
+			);
+			name = SHAVDemoTests;
+			productName = SHAVDemoTests;
+			productReference = E77F90A42078EF740095C6FF /* SHAVDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E77F90AE2078EF740095C6FF /* SHAVDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E77F90BE2078EF740095C6FF /* Build configuration list for PBXNativeTarget "SHAVDemoUITests" */;
+			buildPhases = (
+				E77F90AB2078EF740095C6FF /* Sources */,
+				E77F90AC2078EF740095C6FF /* Frameworks */,
+				E77F90AD2078EF740095C6FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E77F90B12078EF740095C6FF /* PBXTargetDependency */,
+			);
+			name = SHAVDemoUITests;
+			productName = SHAVDemoUITests;
+			productReference = E77F90AF2078EF740095C6FF /* SHAVDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E77F90842078EF730095C6FF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "北京涛医宝";
+				TargetAttributes = {
+					E77F908B2078EF730095C6FF = {
+						CreatedOnToolsVersion = 9.3;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					E77F90A32078EF740095C6FF = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = E77F908B2078EF730095C6FF;
+					};
+					E77F90AE2078EF740095C6FF = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = E77F908B2078EF730095C6FF;
+					};
+				};
+			};
+			buildConfigurationList = E77F90872078EF730095C6FF /* Build configuration list for PBXProject "SHAVDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E77F90832078EF730095C6FF;
+			productRefGroup = E77F908D2078EF730095C6FF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E77F908B2078EF730095C6FF /* SHAVDemo */,
+				E77F90A32078EF740095C6FF /* SHAVDemoTests */,
+				E77F90AE2078EF740095C6FF /* SHAVDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E77F908A2078EF730095C6FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E77F90D12078FE770095C6FF /* 3.wav in Resources */,
+				E77F90CB2078F2870095C6FF /* SHRecordAudioVC.xib in Resources */,
+				E77F90DE207902CC0095C6FF /* music_a.mp3 in Resources */,
+				E77F909C2078EF740095C6FF /* LaunchScreen.storyboard in Resources */,
+				E77F90992078EF740095C6FF /* Assets.xcassets in Resources */,
+				E77F90E62079192B0095C6FF /* testVideo.mp4 in Resources */,
+				E77F90D22078FE770095C6FF /* 4.wav in Resources */,
+				E77F90DC207901FE0095C6FF /* SHPlayLocalMusicVC.xib in Resources */,
+				E77F90D72078FEDB0095C6FF /* SHShortAudioVC.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E77F90A22078EF740095C6FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E77F90AD2078EF740095C6FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E77F90882078EF730095C6FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E77F90C32078EFA20095C6FF /* SHMainTableViewController.m in Sources */,
+				E77F90CA2078F2870095C6FF /* SHRecordAudioVC.m in Sources */,
+				E77F90E120790AC30095C6FF /* SHAVPlayerVC.m in Sources */,
+				E77F90D62078FEDB0095C6FF /* SHShortAudioVC.m in Sources */,
+				E77F909F2078EF740095C6FF /* main.m in Sources */,
+				E77F90912078EF730095C6FF /* AppDelegate.m in Sources */,
+				E77F90DB207901FE0095C6FF /* SHPlayLocalMusicVC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E77F90A02078EF740095C6FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E77F90A92078EF740095C6FF /* SHAVDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E77F90AB2078EF740095C6FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E77F90B42078EF740095C6FF /* SHAVDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E77F90A62078EF740095C6FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E77F908B2078EF730095C6FF /* SHAVDemo */;
+			targetProxy = E77F90A52078EF740095C6FF /* PBXContainerItemProxy */;
+		};
+		E77F90B12078EF740095C6FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E77F908B2078EF730095C6FF /* SHAVDemo */;
+			targetProxy = E77F90B02078EF740095C6FF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E77F909A2078EF740095C6FF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E77F909B2078EF740095C6FF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E77F90B62078EF740095C6FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E77F90B72078EF740095C6FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E77F90B92078EF740095C6FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RDJ7S48GF6;
+				INFOPLIST_FILE = SHAVDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.buchang.SHAVDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E77F90BA2078EF740095C6FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RDJ7S48GF6;
+				INFOPLIST_FILE = SHAVDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.buchang.SHAVDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E77F90BC2078EF740095C6FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RDJ7S48GF6;
+				INFOPLIST_FILE = SHAVDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.buchang.SHAVDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SHAVDemo.app/SHAVDemo";
+			};
+			name = Debug;
+		};
+		E77F90BD2078EF740095C6FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RDJ7S48GF6;
+				INFOPLIST_FILE = SHAVDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.buchang.SHAVDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SHAVDemo.app/SHAVDemo";
+			};
+			name = Release;
+		};
+		E77F90BF2078EF740095C6FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RDJ7S48GF6;
+				INFOPLIST_FILE = SHAVDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.buchang.SHAVDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SHAVDemo;
+			};
+			name = Debug;
+		};
+		E77F90C02078EF740095C6FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RDJ7S48GF6;
+				INFOPLIST_FILE = SHAVDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.buchang.SHAVDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SHAVDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E77F90872078EF730095C6FF /* Build configuration list for PBXProject "SHAVDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E77F90B62078EF740095C6FF /* Debug */,
+				E77F90B72078EF740095C6FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E77F90B82078EF740095C6FF /* Build configuration list for PBXNativeTarget "SHAVDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E77F90B92078EF740095C6FF /* Debug */,
+				E77F90BA2078EF740095C6FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E77F90BB2078EF740095C6FF /* Build configuration list for PBXNativeTarget "SHAVDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E77F90BC2078EF740095C6FF /* Debug */,
+				E77F90BD2078EF740095C6FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E77F90BE2078EF740095C6FF /* Build configuration list for PBXNativeTarget "SHAVDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E77F90BF2078EF740095C6FF /* Debug */,
+				E77F90C02078EF740095C6FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E77F90842078EF730095C6FF /* Project object */;
+}
